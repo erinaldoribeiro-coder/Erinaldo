@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecionando...</title>
-    <script>
-        window.location.href = '/Erinaldo/Gestão%20de%20Projetos/';
-    </script>
+    <title>Acompanhamento Estratégico 2026-2030</title>
+    
+    <!-- SEO and Meta Tags -->
+    <meta name="description" content="Sistema Relacional de Acompanhamento de Projetos e Processos para o Planejamento Estratégico 2026-2030.">
+    
+    <!-- Google Fonts: Outfit (modern, geometric) and Inter (highly legible for data) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons (modern, clean icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Gestão de Projetos/css/styles.css">
 </head>
 <body>
-    <p>Redirecionando para o projeto...</p>
+    <div id="app" class="app-container">
+        <!-- Sidebar injected via JS -->
+        <aside id="sidebar" class="sidebar"></aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header injected via JS -->
+            <header id="topbar"></header>
+
+            <div id="view-container" class="view-container">
+                <!-- Dynamic Content Injected Here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Main JavaScript App -->
+    <script src="Gestão de Projetos/js/data/seed.js"></script>
+    <script src="Gestão de Projetos/js/store.js"></script>
+    <script src="Gestão de Projetos/js/app.js"></script>
 </body>
 </html>
